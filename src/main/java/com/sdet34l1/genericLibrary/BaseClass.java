@@ -30,7 +30,7 @@ public class BaseClass {
 	public String url;
 	public String password;
 	public String username;
-	public String browser;
+	//public String browser;
 	public int randomNumber;
 	public ExcelLibrary excelLibrary ;
 	public FileLibrary fileLibrary ;
@@ -72,12 +72,12 @@ public class BaseClass {
 		url = fileLibrary.getDataFromPropertyFile("url");
 		username= fileLibrary.getDataFromPropertyFile("username");
 		password= fileLibrary.getDataFromPropertyFile("password");
-		browser = fileLibrary.getDataFromPropertyFile("browser");
+		//browser = fileLibrary.getDataFromPropertyFile("browser");
 
 		//	username=System.getProperty("USERNAME");
 		//	password=System.getProperty("PASSWORD");
 		//	url=System.getProperty("URL");
-		//	browser=System.getProperty("BROWSER");
+	       	browser=System.getProperty("browser");
 
 		String timeout = fileLibrary.getDataFromPropertyFile("timeout");
 
