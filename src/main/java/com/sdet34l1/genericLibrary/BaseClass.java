@@ -78,6 +78,8 @@ public class BaseClass {
 		//	password=System.getProperty("PASSWORD");
 		//	url=System.getProperty("URL");
 	       	browser=System.getProperty("browser");
+		System.out.println(browser);
+		
 
 		String timeout = fileLibrary.getDataFromPropertyFile("timeout");
 
