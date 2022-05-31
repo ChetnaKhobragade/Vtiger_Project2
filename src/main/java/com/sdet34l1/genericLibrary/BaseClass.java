@@ -30,7 +30,7 @@ public class BaseClass {
 	public String url;
 	public String password;
 	public String username;
-	//public String browser;
+	public String browser;
 	public int randomNumber;
 	public ExcelLibrary excelLibrary ;
 	public FileLibrary fileLibrary ;
