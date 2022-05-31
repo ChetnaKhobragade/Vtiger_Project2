@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-31T06:02:55Z" name="Default suite" finished-at="2022-05-31T06:03:27Z" duration-ms="31876">
+    <groups>
+      <group name="sanity">
+        <method signature="CreateProductTest.createProductTest()[pri:0, instance:com.vtiger.productTest.CreateProductTest@2954b5ea]" name="createProductTest" class="com.vtiger.productTest.CreateProductTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-05-31T06:02:55Z" name="Default test" finished-at="2022-05-31T06:03:27Z" duration-ms="31876">
+      <class name="com.vtiger.productTest.CreateProductTest">
+        <test-method is-config="true" signature="beforeSuiteTest()[pri:0, instance:com.vtiger.productTest.CreateProductTest@2954b5ea]" started-at="2022-05-31T06:02:55Z" name="beforeSuiteTest" finished-at="2022-05-31T06:02:55Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteTest -->
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:com.vtiger.productTest.CreateProductTest@2954b5ea]" started-at="2022-05-31T06:02:55Z" name="beforeClassTest" finished-at="2022-05-31T06:03:02Z" duration-ms="6512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethod1Test()[pri:0, instance:com.vtiger.productTest.CreateProductTest@2954b5ea]" started-at="2022-05-31T06:03:02Z" name="beforeMethod1Test" finished-at="2022-05-31T06:03:06Z" duration-ms="4522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1Test -->
+        <test-method signature="createProductTest()[pri:0, instance:com.vtiger.productTest.CreateProductTest@2954b5ea]" started-at="2022-05-31T06:03:07Z" name="createProductTest" finished-at="2022-05-31T06:03:20Z" duration-ms="12765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vtiger.productTest.CreateProductTest@2954b5ea]" started-at="2022-05-31T06:03:20Z" name="afterMethod" finished-at="2022-05-31T06:03:27Z" duration-ms="7270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.productTest.CreateProductTest@2954b5ea]" started-at="2022-05-31T06:03:27Z" name="afterClassTest" finished-at="2022-05-31T06:03:27Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.vtiger.productTest.CreateProductTest@2954b5ea]" started-at="2022-05-31T06:03:27Z" name="afterSuiteTest" finished-at="2022-05-31T06:03:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteTest -->
+      </class> <!-- com.vtiger.productTest.CreateProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
